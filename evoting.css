@@ -1,0 +1,197 @@
+body{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-family: Tahoma, san-sarif;
+	line-height: 2.2em;
+
+
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a:hover{
+	color: red;
+}
+
+.hamburger{
+	margin-top: 60px;
+	text-align: right;
+	display: none;
+}
+
+.container{
+	background: orangered;
+	height: 70px;
+	margin-top: -22px;
+	color: green;
+	padding-top:7px;
+	width:100%;
+	
+}
+
+
+
+.container-nav{
+	margin-top: 1em;
+	margin-bottom: 2.4em;
+	font-family: monospace;
+	font-size:1.3em;
+	display:none;
+	
+}
+
+.side-menu li{
+	padding-bottom: 30px;
+	margin-left: 24px;
+	background: black;
+	height: 40vh;
+	width: 90%;
+	display: none;
+	
+}
+.side-menu a {
+	color: white;
+}
+
+.side-menu a:hover{
+	font-size: 1.3em;
+	color: red;
+}
+
+
+.info-box{
+
+	text-align: left;
+	padding: 1.2em .8em;
+	border: 3px black solid;
+	margin-top: 1em;
+	margin-left: ;
+	width: 70%;
+	border-radius: 20px;
+	font-variant: small-caps;
+	font-size: 1.2em;
+	background: blue;
+	color: #fff;
+	
+
+}
+
+.info-box  :first-child {
+	text-align: center;
+	margin-right: 8px;
+	animation: move 2s infinite alternate;
+}
+
+@keyframes move{
+	from{
+		transform: translateY(0px);
+	}
+
+	to{
+		transform: translateY(20px);
+	}
+}
+
+.form h3,form{
+	margin-top: -19px;
+	
+
+}
+
+.start-voting{
+	padding-top: 1.5em;
+	letter-spacing: .3em;
+}
+
+.portfolio{
+	margin-top: 2.4em;
+	font-style: italic;
+	font-weight: 500;
+	padding:.1em;
+}
+
+.hamburgers{
+	text-align: right;
+}
+
+.my-forms{
+	text-align: left;
+	margin-left: 6%;
+	display: grid;
+
+}
+
+.my-forms .movable{
+	text-align: right;
+	padding-top: 25px;
+	margin-right: 12px;
+}
+
+.footer, .footer a{
+	background: black;
+	color: white;
+	margin-top: 70px;
+	
+}
+.footer{
+	margin-top: 60px;
+	padding-top: 14px;
+	width: 100%;
+	position: absolute;
+}
+
+.footer a:hover {
+	color: red;
+}
+
+.footer ul{
+	display: flex;
+	justify-content: space-around;
+	padding: .1em;
+
+}
+
+.portfolio{
+	animation: move 1s infinite alternate;
+}
+
+@keyframes move{
+	from{
+		transform: translateY(0px);
+	}
+
+	to{
+		transform: translateY(30px);
+	}
+}
+
+
+@media (min-width: 1140px){
+	.info-box{
+		width: 50%;
+		height: 45%;
+
+	}
+
+	.container-nav{
+		font-size: 2.2em;
+		
+	}
+
+	.container{
+		height: 120px;
+		font-size: 2em;
+	}
+
+	.my-forms .movable{
+		margin-right: 25px;
+	}
+}
+

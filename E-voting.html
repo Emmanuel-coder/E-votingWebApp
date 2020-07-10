@@ -1,0 +1,118 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>E-voting</title>
+		<link rel="stylesheet" type="text/css" href="../css/evoting.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="This is an online voting site">
+		<meta name="keyword" content="Vote, online poll">
+		<meta content='width=device-width, initial-scale=1, maximum-scale=1.0' name='viewport'>
+	</head>
+	<body>
+		
+		<div class="container">
+			<header>
+				<h1 class="main-header"><big>E-voting</big></h1>
+			</header>
+			<div class="hamburger" id="hamburger">
+				<img src="images/hamburger.png" alt="">
+			</div>
+		</div>
+		<div class="container-nav">
+			<nav>
+				<a href="#"> ABOUT  </a> 
+				<a href="#">|| CONTACT ||</a>
+				 <a href="#">POLICY </a> 
+			</nav>
+		</div>
+		<div class="side-menu" id="nav">
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Advertise</a></li>
+				<li><a href="#">Policy</a></li>
+			</ul>
+			<div class="hamburgers">
+				<img accept="click" class="hamburgers" id="manual" src="images/hamburger.png" alt="ham">
+			</div>
+			
+			
+			<div class="container1">
+				<div class="info-box">
+					<h2> NOTICE!</h2>
+					<p>This is to inform you that this E-voting is properly monitored
+					by our server and robot
+					 participation will lead to automatic disqualification
+					of the candidate. 
+					Details of voters will also be required for credibility purpose </p> 
+				
+				</div>
+		
+			</div>
+		<br/>
+		<br/>
+		<div class="form" id="forms">
+			<form>
+				
+					<h3>Name:</h3><input type="text" name="name" size="32" placeholder="e.g JOHN, Mark Ken" maxlength="100" /></p>
+					<h3>Identification:</h3>
+					<input type="text" name="identification" placeholder="input your voting ID e.g matric no" size="32"/></p>
+					<input type="button" onclick="alert ('Your data has been taken successfully and will be used to trace your participation so your vote could count after thorough scrutiny of your ID. Thank You!')" name="submit" value="Submit" />
+			</form>	
+		</div>	
+			<div class="start-voting">
+
+				<h2>START VOTING!</h2>
+			</div>	
+				
+				<div class="portfolio">
+					<p>President: vote your prefered candidate</p>
+				</div>
+
+				<br/>
+		
+			<div class="my-forms">
+				<form action="" method="get">
+					<img src="images/emmanuel.png" alt="Image" width="50" height="60">
+					<input type="radio" name="radbtn"><label>Loyalty</label> <br/>
+				
+					<img src="images/loyalty.jpg" alt="Image" width="50" height="50"> <input type="radio" name="radbtn" /><label>Emmanuel</label> <br/>
+				
+					<img src="images/bukola.png" alt="Image" width="50" height="60"> 
+					<input type="radio" name="radbtn" /><label>Bukola</label><br/>
+				
+						<img src="images/job.png" alt="Image" width="50" height="50"> <input type="radio" name="radbtn" /><label>Job</label> 
+						<br>
+
+						<div class="movable">
+
+							<input  type="button" onclick="alert ('Your vote has been recorded and being scrunitinized. Continue to other catergories. Happy voting!')" name="btnSubmit" value="Submit and Continue"  />
+						</div>
+					</form>
+			</div>
+				
+					
+			
+				
+
+			<div class="footer">	
+
+				<footer>
+					<a href="#">Copyright E-voting, 2019. All Rights Reserved.</a>
+					<ul>
+						<li><a href="#">Policy</a></li>
+						<li><a href="#">Complain</a></li>
+					</ul>
+				</footer>
+				
+
+		</div>
+		<script>
+			var menu = document.getElementById("manual");
+			menu.addEventListener ("click", function (e){
+				nav.classList.toggle("side-menu");
+			});
+		</script>
+			
+	</body>
+</html>
